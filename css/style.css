@@ -344,9 +344,9 @@
   padding: 10px 0;
   font-size: 30px;
 }
-@media (max-width: 600px) {
+@media (max-width: 375px) {
   .container {
-    max-width: 600px;
+    max-width: 375px;
     margin: 0 auto;
   }
   .header-nav-ul {

@@ -1279,7 +1279,7 @@
 .footer-content-tweetblock:last-child::after {
   display: none;
 }
-@media (max-width: 501px) {
+@media (max-width: 361px) {
   .container {
     width: 100%;
     margin: 0;

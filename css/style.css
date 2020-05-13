@@ -1438,7 +1438,10 @@
     margin-left: 10px;
     background-repeat: round;
   }
-  .footer {
+  .footer,
+  .videblock,
+  .buyit,
+  .counts {
     display: none;
   }
   .footer-botton-block {

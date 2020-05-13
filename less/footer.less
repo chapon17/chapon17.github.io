@@ -65,6 +65,11 @@
     margin: 5px;
 }
 
+.footerimg:hover {
+    filter: brightness(70%);
+    outline: 1px solid white;
+}
+
 .footer-content-imgblock {
     margin: 0;
     padding: 0;
@@ -141,32 +146,40 @@
     display: none;
 }
 
-.footer-content-tweetblock-a{
+.footer-content-tweetblock-a {
     text-decoration: none;
     font-family: Montserrat300;
     font-size: 14px;
     line-height: 20px;
     color: #00bff3;
 }
-.footer-content-newsblock:hover >.footer-date{
+
+.footer-content-newsblock:hover > .footer-date {
     color: #ffffff;
 }
-.footer-content-newsblock:hover >.footer-p{
+
+.footer-content-newsblock:hover > .footer-p {
     color: #c7b299;
 }
-.footer-content-tweetblock:hover >.footer-date{
+
+.footer-content-tweetblock:hover > .footer-date {
     color: #ffffff;
 }
-.footer-content-tweetblock:hover >.footer-p{
+
+.footer-content-tweetblock:hover > .footer-p {
     color: #c7b299;
 }
-.footer-content-newsblock:after, .footer-content-tweetblock:after {
+
+.footer-content-newsblock:after,
+.footer-content-tweetblock:after {
     content: "";
     display: block;
     width: 100%;
     height: 1px;
     background-color: #252525;
 }
-.footer-content-newsblock:last-child::after, .footer-content-tweetblock:last-child::after {
-   display: none;
+
+.footer-content-newsblock:last-child::after,
+.footer-content-tweetblock:last-child::after {
+    display: none;
 }

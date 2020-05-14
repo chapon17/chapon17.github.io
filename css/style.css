@@ -1011,7 +1011,7 @@
 }
 .recent-h3,
 .recent-p {
-  text-align: center;
+  margin: 0 auto;
 }
 .recent-h3 {
   font-family: Raleway600;
@@ -1504,7 +1504,7 @@
   .mobile-textBlock-p {
     text-align: start;
     width: 100%;
-    font-size: 20px;
+    font-size: 11px;
   }
   .recent-block {
     margin-left: 0;
@@ -1513,7 +1513,7 @@
     flex-wrap: wrap;
   }
   .mobile-textBlock-ul-li {
-    font-size: 20px;
+    font-size: 11px;
   }
   .mobile-textBlock-h3 {
     width: 100%;
@@ -1525,7 +1525,7 @@
   .waxom-pictures-p,
   .latestProjects-content-p,
   .waxom-top-content-p {
-    font-size: 25px;
+    font-size: 23px;
     width: 100%;
     margin-right: 20px;
     margin-left: 20px;
@@ -1536,7 +1536,7 @@
   }
   .latestProjects-panels-content-block-txt,
   .recent-p {
-    font-size: 25px;
+    font-size: 20px;
     text-align: start;
   }
   .waxom-pictures-h3,

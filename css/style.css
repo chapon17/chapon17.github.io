@@ -1418,6 +1418,8 @@
     margin: 0 auto;
     margin-top: 30px;
     text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
   }
   .header-block {
     display: none;
@@ -1497,7 +1499,8 @@
   .waxom-pictures-p,
   .latestProjects-content-p {
     text-align: center;
-    width: 80%;
+    margin-right: 20px;
+    margin-left: 20px;
     margin: 0 auto;
     padding-bottom: 20px;
   }
@@ -1538,6 +1541,8 @@
   .recent-p {
     font-size: 20px;
     text-align: start;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .waxom-pictures-h3,
   .latestProjects-content-h3 {

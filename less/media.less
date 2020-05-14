@@ -3,13 +3,27 @@
         width: 100%;
         margin: 0;
     }
-
-    .header-nav-ul {
-        display: none;
+    .burger{
+        display: block;
     }
 
-    .header-nav-burger {
+    .header-nav-ul {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        text-align:right;
+        margin-top: 30px;
+        margin-right: 40px;
         display: none;
+    }
+    .nav-ul-li-a{
+        margin: 0;
+        padding: 0;
+        font-size: 40px;
+    }
+    .header-nav-burger {
+        display: block;
     }
 
     .header {
@@ -153,6 +167,8 @@
     .logo-block {
         margin: 0 auto;
         display: flex;
+        flex-direction: row;
+        justify-content: space-between;
 
     }
 
@@ -245,9 +261,9 @@
     }
 
     .mobile-textBlock-p {
-        text-align: center;
-        width: 90%;
-        margin: 0 auto;
+        text-align: start;
+        width: 100%;
+        font-size: 11px;
     }
 
     .recent-block {
@@ -255,5 +271,43 @@
         margin-right: 0;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+    .mobile-textBlock-ul-li {
+        font-size: 11px;
+    }
+    .mobile-textBlock-h3{
+        width: 100%;
+        text-align: center;
+       
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .waxom-pictures-p, .latestProjects-content-p, .waxom-top-content-p{
+        font-size: 23px;
+        width: 100%;
+        margin-right: 20px;
+        margin-left: 20px;
+        text-align: start;
+    }
+    .waxom-top-content-p{
+        text-align: left;
+    }
+    .latestProjects-panels-content-block-txt, .recent-p{
+        font-size: 20px;
+        text-align: start;
+    }
+    .waxom-pictures-h3, .latestProjects-content-h3{
+        font-size:40px;
+        margin-bottom: 15px;
+    }
+    .latestProjects-content-aBlock-content-a-span{
+        font-size: 19px;
+    }
+    .header-productname{
+        font-size: 54px;
+        
+    }
+    .waxom-icon{
     }
 }
